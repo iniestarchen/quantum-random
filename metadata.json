@@ -1,0 +1,33 @@
+{
+  "id": "quantum-random",
+  "name": "Quantum Random Number Generator",
+  "category": "utilities",
+  "description": "Generate 4 truly random bits using quantum superposition and measurement.",
+  "long_description": "A quantum random number generator (QRNG) produces genuinely random bits by preparing qubits in superposition (|+\u27e9 = (|0\u27e9+|1\u27e9)/\u221a2) and measuring. Unlike pseudo-random number generators, the randomness is intrinsic to quantum mechanics \u2014 no hidden pattern exists. This circuit generates 4 independent random bits simultaneously. Real QRNGs are commercially available and used in cryptography and scientific simulation.",
+  "difficulty": "beginner",
+  "qubit_count": 4,
+  "clbit_count": 4,
+  "gate_count": 4,
+  "depth": 1,
+  "tags": [
+    "random",
+    "utilities",
+    "superposition",
+    "measurement",
+    "cryptography"
+  ],
+  "circuit_formats": [
+    "qasm2"
+  ],
+  "source_file": "circuit.qasm",
+  "expected_output": "Uniformly random 4-bit string in {0000,...,1111}",
+  "references": [
+    {
+      "title": "Jennewein et al. (2000). A Fast and Compact Quantum Random Number Generator. Rev. Sci. Instrum. 71, 1675",
+      "url": "https://doi.org/10.1063/1.1150518"
+    }
+  ],
+  "author": "OpenQC Community",
+  "license": "MIT",
+  "version": "1.0.0"
+}
