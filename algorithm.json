@@ -1,0 +1,28 @@
+{
+  "slug": "qrng",
+  "name": "Quantum Random Number Generator",
+  "version": "1.0.0",
+  "author": "iniestarchen",
+  "license": "Apache-2.0",
+  "description": "Generate truly random bits using quantum superposition and measurement.",
+  "industries": [
+    "cryptography"
+  ],
+  "techniques": [
+    "gate"
+  ],
+  "difficulty": "beginner",
+  "computation_model": "gate",
+  "algorithm_type": "circuit",
+  "qubit_count": 4,
+  "tags": [
+    "qrng",
+    "random",
+    "measurement"
+  ],
+  "access": "open",
+  "source": "official",
+  "metadata": {
+    "year_introduced": 2000
+  }
+}
